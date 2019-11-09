@@ -1,72 +1,83 @@
+html, body {
+    height: 100%;
+  }
 body {
     background: url("../images/cheap_diagonal_fabric.png");
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+h2  {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 /* Header styles */
-#topHeader  {
-    border-bottom: 1px #cccccc solid;
-    height: 50px;
-    background: #ffffff;
-    display: flex;
-    justify-content: center;
-}
-#centerDiv  {
-    height: 100%;
-    width: 1010px;
-
-}
-#logo   {
-    background: #4aaaa5;
-    color: white;
-    width: 150px;
-    height: 100%;
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#links   {
-    width: 180px;
-    height: 100%;
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-a{
-    color: grey;
-}
-.linkSpan   {
-    margin: 0px 5px;
-    background: grey;
-    width: 2px;
-    height: 15px;
-}
+    /* header that spans across the page */
+    #topHeader  {
+        border-bottom: 1px #cccccc solid;
+        height: 50px;
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+    }
+    /* Div spans the distance of the #content div */
+    #centerDiv  {
+        width: 1010px;
+    }
+    /* Sets the dimensions and text of the #headerLogo & #headerLinks */
+    .headerStyle    {
+        width: 180px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* #headerLogo specific styles */
+    #headerLogo   {
+        background: #4aaaa5;
+        color: white;
+        float: left;
+    }
+    /* #headerLinks specific styeles including link color and spans */
+    #headerLinks   {
+        float: right;
+    }
+    a{
+        color: grey;
+    }
+    /* uses spans to create pipe decoration */
+    .linkSpan   {
+        margin: 0px 5px;
+        background: grey;
+        width: 2px;
+        height: 15px;
+    }
 /* Content DIV styles */
-#content    {
-    background: #ffffff;
-    border: 1px solid #dddddd;
-    width: 960px;
-    margin: 50px auto;
-    padding: 0px 25px;
-    line-height: 1.5rem;
-    clear: both;
-}
-.sectionTitle   {
-    color: #4aaaa5;
-}
-#bioImage   {
-    width: 200px;
-    height: 200px;
-    float: left;
-    padding-right: 15px;
-}
+    .content    {
+        background: #ffffff;
+        border: 1px solid #dddddd;
+        width: 960px;
+        margin: 50px auto;
+        padding: 0px 25px;
+        line-height: 1.5rem;
+        flex: 1 0 auto;
+    }
+    .sectionTitle   {
+        color: #4aaaa5;
+    }
+    #bioImage   {
+        width: 200px;
+        height: 200px;
+        float: left;
+        padding-right: 15px;
+    }
 /* Footer styles */
 footer  {
     background: #666666;
+    width: 100%;
     border-top: 8px solid #4aaaa5;
     padding: 20px;
     text-align: center;
+    flex-shrink: 0;
 }
