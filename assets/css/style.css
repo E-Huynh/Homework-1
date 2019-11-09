@@ -66,6 +66,9 @@ h2  {
     .sectionTitle   {
         color: #4aaaa5;
     }
+    .content hr  {
+        margin-bottom: 20px;
+    }
     #bioImage   {
         width: 200px;
         height: 200px;
@@ -73,11 +76,11 @@ h2  {
         padding-right: 15px;
     }
 /* Footer styles */
-footer  {
-    background: #666666;
-    width: 100%;
-    border-top: 8px solid #4aaaa5;
-    padding: 20px;
-    text-align: center;
-    flex-shrink: 0;
-}
+    footer  {
+        background: #666666;
+        width: 100%;
+        border-top: 8px solid #4aaaa5;
+        padding: 20px;
+        text-align: center;
+        flex-shrink: 0;
+    }
