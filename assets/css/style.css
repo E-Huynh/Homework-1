@@ -1,24 +1,72 @@
 body {
-    background: grey;
+    background: url("../images/cheap_diagonal_fabric.png");
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-header {
-    border-bottom: 1px red solid;
+/* Header styles */
+#topHeader  {
+    border-bottom: 1px #cccccc solid;
+    height: 50px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
 }
+#centerDiv  {
+    height: 100%;
+    width: 1010px;
 
+}
+#logo   {
+    background: #4aaaa5;
+    color: white;
+    width: 150px;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#links   {
+    width: 180px;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: grey;
+}
+.linkSpan   {
+    margin: 0px 5px;
+    background: grey;
+    width: 2px;
+    height: 15px;
+}
+/* Content DIV styles */
 #content    {
-    border: 2px solid blue;
+    background: #ffffff;
+    border: 1px solid #dddddd;
     width: 960px;
     margin: 50px auto;
     padding: 0px 25px;
     line-height: 1.5rem;
+    clear: both;
 }
-
+.sectionTitle   {
+    color: #4aaaa5;
+}
 #bioImage   {
     width: 200px;
     height: 200px;
     float: left;
     padding-right: 15px;
+}
+/* Footer styles */
+footer  {
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    padding: 20px;
+    text-align: center;
 }
