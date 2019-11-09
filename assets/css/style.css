@@ -80,7 +80,9 @@ h2  {
         background: #666666;
         width: 100%;
         border-top: 8px solid #4aaaa5;
-        padding: 20px;
-        text-align: center;
+        padding-top: 20px;
         flex-shrink: 0;
+    }
+    footer div{
+        margin-left: 50%;
     }
