@@ -45,6 +45,7 @@ h2  {
     }
     a{
         color: grey;
+        text-decoration: none;;
     }
     /* uses spans to create pipe decoration */
     .linkSpan   {
@@ -83,6 +84,7 @@ h2  {
         padding-top: 20px;
         flex-shrink: 0;
     }
+    /* Pushes div to center */
     footer div{
         margin-left: 50%;
     }
