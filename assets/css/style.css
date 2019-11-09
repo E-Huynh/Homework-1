@@ -88,3 +88,10 @@ h2  {
     footer div{
         margin-left: 50%;
     }
+/* Form styles */
+.formStyle label  {
+    display: block;
+}
+input, textarea  {
+    width: 100%;
+}
