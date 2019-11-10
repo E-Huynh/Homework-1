@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- CSS styling link -->
     <title>Contact</title>
 
 </head>
@@ -12,17 +13,17 @@
     <!-- Header content -->
     <header id="topHeader">
         <div id="centerDiv">
-        <div id="headerLogo" class="headerStyle">
-            <h2>Erik Huynh</h2>
+            <div id="headerLogo" class="headerStyle">
+                <h2>Erik Huynh</h2>
+            </div>
+            <div id="headerLinks" class="headerStyle">
+                <a href="index.html">About</a>
+                <span class="linkSpan"></span>
+                <a href="portfolio.html">Portfolio</a>
+                <span class="linkSpan"></span>
+                <a href="contact.html">Contact</a>
+            </div>
         </div>
-        <div id="headerLinks" class="headerStyle">
-            <a href="index.html">About</a>
-            <span class="linkSpan"></span>
-            <a href="portfolio.html">Portfolio</a>
-            <span class="linkSpan"></span>
-            <a href="contact.html">Contact</a>
-        </div>
-      </div>
     </header>
     <!-- Main content div -->
     <div class="content">
@@ -30,12 +31,12 @@
         <hr>
         <form action="get" class="formStyle">
             <label for="firstName">First Name:</label>
-            <input type="text" name="firstNAME" id="firstName" placeholder="John Smith" required>
+                <input type="text" name="firstNAME" id="firstName" placeholder="John Smith" required>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Your email" required>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
             <label for="message">Message:</label>
-            <textarea rows="15" cols="50"></textarea>
-            <button>Submit</button>
+                <textarea id="textBox" rows="15" cols="50"></textarea>
+            <a href="#" class="button">Submit</a>
         </form>
     </div>
     <!-- Footer content -->
