@@ -119,19 +119,20 @@ h2  {
     input::placeholder  {
         padding: 10px;
     }
-    /* Portfolio grid */
+    /* Portfolio grid parent container */
     .wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 30px;
         grid-auto-rows: minmax(100px, auto);
       }
+    /* sets all grid divs to be identauils */
     .gridBox    {
-        background: #dddddd;
         height: 200px;
         margin-top: 20px;
         position: relative;
     }
+    /* Sets all the Divs to equal dimensions */
     .insideDiv  {
         height: 50px;
         width: 100%;
@@ -143,10 +144,12 @@ h2  {
         font-size: 1.25em;
         padding-bottom: 10px;
     }
+    /* Scales image to fit .insideDiv */
     img {
         width: 100%;
         height: 100%;
     }
+    /* Grid layout */
     .one {
     grid-column: 1;
     grid-row: 1;
